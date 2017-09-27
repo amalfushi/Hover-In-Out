@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 880px;
+    height: 970px;
+    margin: 0px auto;
+    background-color: lightslategray;
+    padding: 20px;
+}
+
+#main{
+    display: table;
+    width: 100%;
+}
+
+.box{
+    width: 200px;
+    height: 220px;
+    /* outline: 2px solid black; */
+    display: inline-table;
+    margin: 10px 10px 10px 0px;
+    vertical-align: top;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.tr{
+    display: table-row;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    padding: 10px;
+}
